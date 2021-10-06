@@ -11,7 +11,7 @@ public class Cliente {
 	}
 	
 	public String getNome() {
-		return nome;
+		return this.nome;
 	}
 	
 	public void setEmail(String email) {
@@ -19,7 +19,7 @@ public class Cliente {
 	}
 	
 	public String getEmail() {
-		return email;
+		return this.email;
 	}
 	
 	public void setSalario(double salario) {
@@ -27,7 +27,7 @@ public class Cliente {
 	}
 	
 	public double getsalario() {
-		return salario;
+		return this.salario;
 	}
 	
 
